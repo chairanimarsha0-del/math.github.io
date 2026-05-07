@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff0f5;
+  color: #444;
+}
+
+header {
+  background: #ffb6c1;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  color: white;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.btn {
+  background: #ff69b4;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.materi {
+  padding: 30px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.content {
+  padding: 30px;
+}
+
+.produk-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px;
+}
+
+.produk-card {
+  background: white;
+  width: 250px;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+button {
+  background: #ff69b4;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff1493;
+}
+
+.form-section {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+form {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  width: 300px;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.hasil {
+  text-align: center;
+  padding: 50px;
+}
+
+footer {
+  background: #ffb6c1;
+  text-align: center;
+  padding: 15px;
+  color: white;
+  margin-top: 30px;
+}
