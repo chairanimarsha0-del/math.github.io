@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hasil Input</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<section class="hasil">
+  <h1>Data Berhasil Dikirim 🎉</h1>
+
+  <p><b>Nama:</b> <span id="hasilNama"></span></p>
+  <p><b>Email:</b> <span id="hasilEmail"></span></p>
+
+  <a href="index.html">
+    <button>Kembali</button>
+  </a>
+</section>
+
+<script>
+  document.getElementById("hasilNama").innerHTML =
+    localStorage.getItem("nama");
+
+  document.getElementById("hasilEmail").innerHTML =
+    localStorage.getItem("email");
+</script>
+
+</body>
+</html>
